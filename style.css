@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --ff: "Overpass", sans-serif;
+}
+html,
+body {
+  font-family: var(--ff);
+  background-color: var(--Very-Dark-Blue);
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  width: 50px;
+}
+.sec {
+  background-image: linear-gradient(hsl(215, 20%, 12%), hsl(213, 20%, 9%));
+  border-radius: 30px;
+}
+.sec h2 {
+  color: var(--White);
+  font-size: 25px;
+}
+.sec p {
+  color: var(--Light-Grey);
+  font-size: 13px;
+}
+.img-w {
+  background-color: var(--Dark-Blue);
+  padding: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.num {
+  background-color: var(--Dark-Blue);
+  padding: 13px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 800;
+}
+.active{
+  background-color: var(--White);
+  color: var(--);
+}
+.num:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+  cursor: pointer;
+}
+.btn {
+  background-color: var(--Orange);
+  color: var(--Very-Dark-Blue);
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+}
+.btn:hover {
+  background-color: var(--White);
+  color: var(--Very-Dark-Blue);
+  border: none;
+}
